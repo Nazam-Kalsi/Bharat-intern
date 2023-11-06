@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="temperatureConverter.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Temperature Convertor</title>
+
+</head>
+
+<body class="flex">
+    <header class="position">
+        <ul class="flex">
+            <li>Home</li>
+            <li>Discover</li>
+            <li>Temperature Convertor</li>
+            <li>Info</li>
+            <li>Give Feedback</li>
+        </ul>
+    </header>
+    <div id="title" class="m flex">TEMPERATURE&nbsp;CONVERTOR</div>
+    <section class="flex container">
+        <div>
+            <h3 class="heading"> Temperature in <span>Celcius</span></h3>
+            <input type="number" name="celcius" placeholder="00">
+        </div>
+
+        <div>
+            <h3 class="heading"> Temperature in <span>kalvin</span></h3>
+            <input type="number" name="kalvin" placeholder="273.15">
+        </div>
+
+        <div>
+            <h3 class="heading"> Temperature in <span> Fahrenheit</span></h3>
+            <input type="number" name="fahrenheit" placeholder="32">
+        </div>
+        <button class="btn">Reset</button>
+    </section>
+    <script src="temperatureConverter.js"></script>
+</body>
+
+</html>
